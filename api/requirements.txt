@@ -1,0 +1,11 @@
+mongoengine
+flask
+flask-restplus
+pytest
+pyjwt
+flask-socketio
+redis
+kombu
+gunicorn
+eventlet
+gevent-websocket
