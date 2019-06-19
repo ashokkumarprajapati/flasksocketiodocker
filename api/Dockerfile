@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt-get update
-RUN apt-get install python3-pip -y
+RUN apt-get install python3-pip openssh-server -y
 RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt .
