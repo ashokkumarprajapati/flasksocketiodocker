@@ -7,7 +7,7 @@ eventlet.monkey_patch()
 
 app = Flask(__name__)
 api = Api(app)
-socketio = SocketIO(app, message_queue='redis://redis:6379')
+socketio = SocketIO(app)
 
 @app.route('/')
 def get_domain():
